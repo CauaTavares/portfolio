@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: aliceblue;
 }
 
 body {
@@ -35,6 +36,7 @@ body {
 .cabecalho-menu {
     display: flex;
     gap: 32px;
+    align-items: baseline;
 }
 
 .cabecalho-menu-item {
@@ -43,10 +45,24 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
+.cabecalho-menu-item:hover {
+    color: #00878b;
+    transition: 0.3s all;
+}
+
+#fale-comigo {
+    border: 2px solid #00878b;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#fale-comigo:hover {
+    background-color: #00878b;
+    color: black;
+}
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4 solid white;
 }
 
 .conteudo-principal {
@@ -69,6 +85,10 @@ body {
     color: aliceblue;
 }
 
+span {
+    color: #00878b;
+}
+
 .conteudo-principal-escrito-subtitulo {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -83,19 +103,34 @@ body {
 }
 
 .conteudo-principal-imagem {
-    height: 400px;
+    height: 430px;
+    border-radius: 50%;
 }
 
-.conteudo-segundario{
+.conteudo-segundario {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap-reverse;
-    gap: 30px;
+    gap: 25px;
     margin-top: 100px;
 }
+
 
 .conteudo-segundario-projeto {
     display: flex;
     height: 200px;
+    border-radius: 15px;
+}
+
+.conteudo-segundario-projeto:hover {
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    transform: scale(1.05);
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.rodape {
+    background-color: rgb(27, 27, 27);
+    padding: 10px, 0px;
+    text-align: center;
 }
