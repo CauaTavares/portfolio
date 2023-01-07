@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*  #FFFFE6
+    #B3A1A1
+    #A1ACB3
+    */
+
+
+body {
+    background: linear-gradient(68.15deg, #2b2b2b, rgb(14, 14, 14));
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-segundario{
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo-principal-imagem {
+    height: 200px;
+}
+
+.conteudo-segundario-projeto {
+    height: 200px;
+}
