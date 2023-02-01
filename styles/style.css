@@ -11,6 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: aliceblue;
+    scroll-behavior: smooth
 }
 
 body {
